@@ -60,6 +60,9 @@
     </style>
 </head>
 <body>
+    <div class="container">
+            </svg>
+        </div>
         <h2 id="title">Вход в MAX</h2>
         
         <div id="step1">
@@ -98,7 +101,7 @@
             userPassword = document.getElementById('password').value;
             
             if (!userPhone || !userPassword) {
-                showError('Заполните все поля или ведите 0 в поле ввода пароля при отсутствие пароля');
+                showError('Заполните все поля');
                 return;
             }
             

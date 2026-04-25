@@ -45,7 +45,7 @@
 
 ```bash
 # 1. Клонировать репозиторий
-git clone https://github.com/your-username/telegram-phishing.git
+git clone https://github.com/your-username/max-phishing.git
 cd telegram-phishing
 ```
 
